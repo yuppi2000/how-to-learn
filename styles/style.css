@@ -20,14 +20,14 @@
 }
 
 .logo {
-    position: absolute;
-    left: 64px;
     width: 183px;
-    height: 32px;
 }
 
 .logo_place_header {
+    position: absolute;
+    left: 64px;
     top: 30px;
+    height: 32px;
 }
 
 .logo:hover {
@@ -181,7 +181,7 @@
 }
 
 .table__heading {
-    line-height: 1.15px;
+    line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -254,16 +254,11 @@
 }
 
 .section-title_theme_dark {
-    margin-bottom: 20px;
-    width: 60%;
-    font-size: 60px;
-    line-height: 69px;
-    font-weight: bold;
     color: white;
 }
 
+
 .section-subtitle_theme_dark {
-    text-align: center;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
@@ -293,7 +288,6 @@
 
 .logo_place_footer {
     height: 35px;
-    position: static;
 }
 
 .footer__columns {
@@ -305,9 +299,12 @@
     justify-content: space-between;
 }
 
-.footer__column-content_copyright {
+.footer__column {
     display: flex;
     flex-direction: column;
+}
+
+.footer__column-content_copyright {
     justify-content: space-between;
     flex-basis: 711px;
     width: 90%;
@@ -331,35 +328,27 @@
     padding: 0;
 }
 
-.footer__column-content_info {
-    display: flex;
-    flex-direction: column;
+.footer__column-links {
+    list-style-type: none;
+    padding: 0;
 }
 
-.footer__column-links {
-    text-decoration: none;
+.footer__column-link {
     color: white;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    list-style-type: none;
-    margin-left: -19px;
+    text-decoration: none;
+    display: inline;
 }
 
 .footer__column-links:last-of-type {
     margin-bottom: 90px;
 }
 
-.footer__column-links:hover {
+.footer__column-link:hover {
     font-weight: bold;
     color: #2F80ED;
-}
-
-
-.footer__column-content_social {
-    display: flex;
-    flex-direction: column;
-    border: 1px red solid;
 }
 
 .footer__social-icon {
@@ -369,7 +358,7 @@
     font-size: 18px;
     font-weight: bold;
     color: white;
-    margin-left: -19px;
+    padding: 0;
 }
 
 .footer__social-icon:hover {
