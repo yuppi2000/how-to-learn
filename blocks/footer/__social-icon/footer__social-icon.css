@@ -1,0 +1,14 @@
+.footer__social-icon {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+}
+
+.footer__social-icon:hover {
+  opacity: .5;
+  transition: .3s;
+}

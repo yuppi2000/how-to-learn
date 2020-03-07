@@ -1,0 +1,4 @@
+.video__iframe:hover {
+    opacity: .5;
+    transition: .3s;
+  }
