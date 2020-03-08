@@ -1,10 +1,4 @@
-@import url(./cards/cards.css);
-@import url(./cards/__description/cards__description.css);
-@import url(./cards/__image/cards__image.css);
-@import url(./cards/__item/cards__item.css);
-@import url(./cards/__title/cards__title.css);
-@import url(./section-subtitle/section-subtitle.css);
-@import url(./section-title/section-title.css);
+
 
 .technics {
     width: 80%;

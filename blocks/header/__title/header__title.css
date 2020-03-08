@@ -1,6 +1,6 @@
 .header__title {
     margin: auto;
-    width: 730px;
+    max-width: 730px;
     z-index: 26;
     margin-left: 64px;
     line-height: 96px;
