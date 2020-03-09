@@ -1,0 +1,17 @@
+@keyframes rotation1 {
+    from {
+      transform: rotate(-15deg);
+    }
+    to {
+      transform: rotate(345deg);
+    }
+  }
+
+  @keyframes rotation2 {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
